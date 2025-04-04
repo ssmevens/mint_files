@@ -8,7 +8,7 @@ profile chrome /opt/google/chrome/chrome flags=(enforce) {
   include <abstractions/bash>
   include <abstractions/gnome>
   include <abstractions/gtk>
-  #include <abstractions/libvirt-qemu>
+  include <abstractions/libvirt-qemu>
   include <abstractions/ubuntu-browsers.d/ubuntu-integration>
   include <abstractions/user-tmp>
   include <abstractions/video>
